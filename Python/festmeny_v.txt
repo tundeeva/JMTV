@@ -1,0 +1,10 @@
+Majális;920000;impresszionista
+Kék szemű nő;752000;futurista
+Plage a Trouville;652200;impresszionista
+Picasso arcképe;350000;futurista
+Félszeg mozdulatok;150000,neoklasszicista
+Három grácia;865000;reneszánsz
+A malom;425000,realista
+Önarckép;651000;realista
+A rózsa;120000;reneszánsz
+Figueresi lány;275000;reneszánsz
