@@ -2,7 +2,7 @@
 
 class InputFile:
     def __init__(self, file, lista):
-        f = open(file, "r")
+        f = open(file, "r", encoding='utf-8')
         for sor in f:
             sor = sor[:-1].split(";")
             lista.append([str(sor[0]), int(sor[1]), str(sor[2])])
@@ -23,9 +23,9 @@ class Search_cmd:
         '''Egy kicsi menü, amiben választani lehet majd egy pár opció közül'''
         # proba = self.festmeny_all[0]
         # print(self.proba)
-        self.m_1 = "\n\tNév keresése a kiválasztot listából" + "\t--\t1"
+        self.m_1 = "\n\t1.)\tNév keresése a kiválasztot listából"
         print(self.m_1)
-        self.m_2 = "\tNév keresése az összes listából\t" + "\t--\t2"
+        self.m_2 = "\t2.)\tNév keresése az összes listából\t"
         print(self.m_2)
         txt = "\n\tKérlek válasz az opciók közül: "
         self.a = int(input(txt))
