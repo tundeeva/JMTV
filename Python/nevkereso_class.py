@@ -1,4 +1,5 @@
 
+
 class InputFile:
     def __init__(self, file, lista):
         f = open(file, "r")
@@ -12,6 +13,7 @@ class Search_cmd:
     '''Fő osztály'''
     festmeny_now = []   #most üres de később ez lesz a pillanatnyi!!
     festmeny_all = []   #összes eddigi festmeny.txt
+    # proba= ["fás"]
     
     #Search_cmd.inputFile("festmeny_v.txt", festmeny_all)
     
@@ -19,7 +21,8 @@ class Search_cmd:
         print(label)
         
         '''Egy kicsi menü, amiben választani lehet majd egy pár opció közül'''
-        
+        # proba = self.festmeny_all[0]
+        # print(self.proba)
         self.m_1 = "\n\tNév keresése a kiválasztot listából" + "\t--\t1"
         print(self.m_1)
         self.m_2 = "\tNév keresése az összes listából\t" + "\t--\t2"
@@ -31,7 +34,8 @@ class Search_cmd:
         
         if self.a == 1:
             for i in range(len(self.festmeny_all)):
-                print(self.festmeny_all[i][0])
+                txt = self.festmeny_all[i][0]
+                print(txt)
                 
         elif self.a == 2:
             txt = "Sikeres keresés"
@@ -40,6 +44,8 @@ class Search_cmd:
         
 # A modul inulásának parancsai
 InputFile("festmeny_v.txt", Search_cmd.festmeny_all)
+InputFile("festmeny_m.txt", Search_cmd.festmeny_all)
+#InputFile("festmeny_t.txt", Search_cmd.festmeny_all)
 Search_cmd("\nÜdvözöllek a Névkeresőben!")
 # A modul teszteléséhez szükséges
 input("<<Enter>>")
