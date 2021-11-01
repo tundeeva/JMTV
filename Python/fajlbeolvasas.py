@@ -3,7 +3,7 @@ import festmenyek_class
 class Beolvasas:
 
     def __init__(self, rekordok):
-        slef.rekordok = rekordok
+        self.rekordok = rekordok
         fajl = input("Kérem a fájl nevét: ")
         self.inputFile(fajl, self.rekordok)
         print("\tA fájl beolvasása ... kész!")
