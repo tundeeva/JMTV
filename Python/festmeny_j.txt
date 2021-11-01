@@ -1,0 +1,14 @@
+The Holy Trinity;350000;reneszánsz
+Ginevra de' Benci; 125000;reneszánsz
+Portrait of the Doge Leonardo Loredan;110000;reneszánsz
+The Ship of Fools;130000;reneszánsz
+The Victory of Alexander at Issus; 780000;reneszánsz
+The Vegetable Gardener;185000;reneszánsz
+David and Goliath;367000;barokk
+Self-Portrait in a Cap, with Eyes wide Open;100000;barokk
+Las Meninas;560000;barokk
+Pilgrimage to Cythera;680000;barokk
+Apotheosis of the Pisani Family;1000000;barokk
+Two Men Contemplating the Moon;745000;romantikus
+The Stonebreakers;670000;realista
+Impression, Sunrise;890000;impresszionista
