@@ -13,7 +13,7 @@ def f1(label):
     
 
 def inputFile(file, lista):
-    f = open(file, "r")
+    f = open(file, "r", encoding=, 'utf-8')
 
     rekordok[:] = []
     
