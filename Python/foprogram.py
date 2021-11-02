@@ -1,11 +1,11 @@
-import udvozles_class
+import udvozles
 import fomenu
 import fajlbeolvasas
 
 rekordok = []
 
 def main():
-    udvozles_class.Udvozles()
+    udvozles.Udvozles()
     answer = ""
     while 1:
         fomenu.Fomenu()
