@@ -1,10 +1,10 @@
-Csillagos éj;1200000;posztimpresszionista
-Pont Saint Michel;220000000;modern
-Szent Teréz extázisa,9700000;barokk
-Szent Pál megtérése;8700000;barokk
+Csillagos éj;120000;posztimpresszionista
+Pont Saint Michel;220000;modern
+Szent Teréz extázisa;970000;barokk
+Szent Pál megtérése;870000;barokk
 Piros pipacsok;50000;expresszionista
 Fej+Fény+Táj;230000;futurista
-Víztócsak kacsákkal;1250000;impresszionista
-Fátyoltánc;780000;kubizmus
-Víztároló;690000;pop-art
-Bacchus és Ariadne;1800000;reneszánsz
+Víztócsak kacsákkal;125000;impresszionista
+Fátyoltánc;78000;kubizmus
+Víztároló;69000;pop-art
+Bacchus és Ariadne;180000;reneszánsz
