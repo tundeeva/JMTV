@@ -1,6 +1,9 @@
 import udvozles_kiiro
 import menu_kiiro
 import fajlbeolvasas
+import festmeny_hozzaadas
+import festmenyek_class
+import fajl_kiiras
 
 rekordok = []
 
@@ -16,10 +19,10 @@ def main():
                 fajlbeolvasas.Beolvasas(rekordok)
                 break
             elif answer == 'b':
-                print("bbbb")
+                fajl_kiiras.Kiiras(rekordok)
                 break
             elif answer == 'c':
-                print("cccc")
+                festmeny_hozzaadas.FestményHozzáadás()
                 break
             elif answer == 'd':
                 print("dddd")
